@@ -1,0 +1,11 @@
+# Inputs
+#
+#   token: your Iron.io token
+#   project_id: your Iron.io project id
+#   url: URL to a .worker file, eg: https://github.com/treeder/hello_worker/blob/master/hello.worker
+
+runtime 'ruby'
+
+gem 'iron_worker_ng'
+
+exec 'builder.rb'
